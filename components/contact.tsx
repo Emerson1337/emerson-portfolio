@@ -43,6 +43,24 @@ export default function Contact() {
         </a>
         .
       </p>
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <SectionHeading>Enjoy my songs :D</SectionHeading>
+
+      <p className="text-gray-700 -mt-6 dark:text-white/80">
+        <a
+          target="_blank"
+          className="underline"
+          href="https://soundcloud.com/erms1337"
+        >
+          Sound Cloud
+        </a>
+        .
+      </p>
     </motion.section>
   );
 }
