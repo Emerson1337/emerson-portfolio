@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import onlinecheckproject from "@/public/onlinecheck.png";
+import canigethome from "@/public/canigethome.png";
+import netfliximage from "@/public/netflixclone.png";
+import obsbrowser from "@/public/obs-browser.png";
 
 export const links = [
   {
@@ -35,73 +36,116 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated from High School",
+    location: "Fortaleza, CE",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 3 years studying computer networks. I immediately found a job as a Network Operator.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    title: "Joined at university - UECE",
+    location: "Fortaleza, CE",
+    description: "Started my graduation studying Computer Science.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "BlockChain One/Urbe.digital as Full-stack Developer",
+    location: "Fortaleza, CE",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as a full-stack developer for 2 years. I also upskilled from internship to Full-stack mid-level in 1 year.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2023",
+  },
+  {
+    title: "Backend Developer at Good Software Dev",
+    location: "Texas, USA",
+    description:
+      "I'm now a back-end developer working as a freelancer with an international team. My stack includes React, TypeScript, Prisma, NodeJS, JavaScript, Gravity boilerplate and MongoDB.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Online Check",
+    link: "https://github.com/Emerson1337/onlineCheckEMS",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A real full stack project made for education purposes. It is an online check that uses the WhatsApp API for sending messages.",
+    tags: [
+      "React",
+      "PostgreSQL",
+      "Styled components",
+      "Typeorm",
+      "NodeJS",
+      "Express",
+      "Yup",
+    ],
+    imageUrl: onlinecheckproject,
   },
   {
-    title: "rmtDev",
+    title: "Can I get home?",
+    link: "https://github.com/Emerson1337/CanIGetHome",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "An app that allow me to consult Uber ride prices through my mi band or any smart watch.",
+    tags: ["NodeJS", "Typescript", "Jwt"],
+    imageUrl: canigethome,
   },
   {
-    title: "Word Analytics",
+    title: "Netflix Clone",
+    link: "https://netflix-front-clone-reactjs.vercel.app/",
+    description: "A Netflix front end clone.",
+    tags: ["ReactJS"],
+    imageUrl: netfliximage,
+  },
+  {
+    title: "OBS Browser Preview",
+    link: "https://github.com/Emerson1337/obs-browser-preview",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "That's an app that allows you to preview your video source from your OBS Studio in the browser locally.",
+    tags: ["NodeJS", "JavaScript", "Html", "WebSocket", "Obs-web-socket"],
+    imageUrl: obsbrowser,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
   "TypeScript",
+  "JavaScript",
+  "Python",
+  "PHP",
+  "C",
+  "Node.js",
   "React",
   "Next.js",
-  "Node.js",
+  "Nest.js",
   "Git",
-  "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "MySQL",
+  "Docker",
+  "Docker-compose",
+  "Kubernetes",
+  "Docker-swarm",
+  "AWS EC2",
+  "S3 Bucket",
+  "Unit testing",
+  "Algorithms",
+  "Microservices",
+  "JQuery",
+  "Ajax",
+  "Laravel",
+  "Adonis.js",
+  "REST APIs",
+  "Git",
+  "GitHub",
+  "POO",
+  "Clean Code",
+  "Clean Architecture",
+  "Computer Networks",
+  "HTML",
+  "CSS",
 ] as const;

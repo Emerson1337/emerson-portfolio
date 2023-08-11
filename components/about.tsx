@@ -4,6 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import Image from "next/image";
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -19,31 +20,25 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I'm a guy who <span className="underline">loves</span> to work with{" "}
+        <span className="font-medium">Typescript, Node and React.</span> Besides
+        that, <span className="italic">Web Security</span> it's an area that
+        I've always had passion learning about. Currently I work as a{" "}
+        <span className="font-medium">Full Stack developer</span>, although my
+        main knowledge and preference to work is on Back end. Solve problems in
+        the most clean way that I can it's what I like to do. I can learn fast
+        and I love it. Also, I'm a{" "}
+        <span className="underline">Computer Science student</span>. Teach me!
       </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+      <div className="flex items-center justify-center h-screen">
+        <Image
+          width={300}
+          height={300}
+          className="h-300 w-300 rounded-full object-cover shadow-xl"
+          src="/me.jpg"
+          alt="test"
+        />
+      </div>
     </motion.section>
   );
 }
