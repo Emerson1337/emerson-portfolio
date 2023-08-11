@@ -89,7 +89,7 @@ export const projectsData = [
     title: "Can I get home?",
     link: "https://github.com/Emerson1337/CanIGetHome",
     description:
-      "An app that allow me to consult Uber ride prices through my mi band or any smart watch.",
+      "An app that allows me to consult Uber ride prices through my mi band or any smart watch.",
     tags: ["NodeJS", "Typescript", "Jwt"],
     imageUrl: canigethome,
   },
