@@ -30,15 +30,6 @@ export default function About() {
         and I love it. Also, I'm a{" "}
         <span className="underline">Computer Science student</span>. Teach me!
       </p>
-      <div className="flex items-center justify-center h-screen">
-        <Image
-          width={300}
-          height={300}
-          className="h-300 w-300 rounded-full object-cover shadow-xl"
-          src="/me.jpg"
-          alt="test"
-        />
-      </div>
     </motion.section>
   );
 }
